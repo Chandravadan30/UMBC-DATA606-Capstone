@@ -1,6 +1,6 @@
 # Venkata Sai Chandravadan Sobila
 
-![Profile Photo](../headshot.jpg)
+![Profile Photo](1761763700941.jpeg)
 
 📧 Email: Hl12732@umbc.edu  
 📞 Phone: (667) 431-6450  
