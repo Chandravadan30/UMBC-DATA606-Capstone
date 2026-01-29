@@ -1,6 +1,6 @@
 # Venkata Sai Chandravadan Sobila
 
-![Profile Photo](1761763700941.jpeg)
+![Profile Photo](../headshot.jpg)
 
 📧 Email: Hl12732@umbc.edu  
 📞 Phone: (667) 431-6450  
@@ -160,5 +160,4 @@ Anomaly Detection, Trend Analysis, Root-Cause Analysis, Data Mining, Dashboardin
 
 ---
 
-
-
+*Last updated: 2026*
