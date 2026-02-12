@@ -1,11 +1,14 @@
 # Feature Lifecycle Intelligence System 
 
-**Prepared for:** UMBC Data Science Master’s Degree Capstone — Dr. Chaojie (Jay) Wang  
-**Author:** Venkata Sai Chandravadan Sobila 
-**GitHub Repository:** https://github.com/Chandravadan30/UMBC-DATA606-Capstone 
-**LinkedIn Profile:** https://www.linkedin.com/in/chandravadan-sobila-960447214/
-**Presentation Slides:** (to be added)  
-**YouTube Demo Video:** (to be added)
+## Project Information
+
+- **Prepared for:** UMBC Data Science Master’s Degree Capstone — Dr. Chaojie (Jay) Wang  
+- **Author:** Venkata Sai Chandravadan Sobila  
+- **GitHub Repository:** [View Repository](https://github.com/Chandravadan30/UMBC-DATA606-Capstone)  
+- **LinkedIn Profile:** [Connect on LinkedIn](https://www.linkedin.com/in/chandravadan-sobila-960447214/)  
+- **Presentation Slides:** (to be added)  
+- **YouTube Demo Video:** (to be added)
+
 
 ---
 
