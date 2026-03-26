@@ -129,6 +129,176 @@ Planned analyses:
 - Defect risk distribution analysis
 - Missing value and duplicate checks
 - Validation of feature mapping rules
+Here’s a slightly more detailed version — still clean and natural, without heavy buzzwords:
+
+---
+
+### 4.1 Objectives
+
+The main goals of EDA are:
+
+* Understand how features are used and how users interact with them
+* Identify trends, growth, or decline in feature usage over time
+* Examine the relationship between defects and feature adoption
+* Check data quality, including missing and duplicate records
+* Validate feature mapping across datasets
+
+---
+
+### 4.2 Notebook Workflow
+
+The EDA process is organized into the following steps:
+
+---
+
+### 4.2.1 Data Loading and Initial Inspection
+
+* Load the dataset into the notebook
+* View a few sample rows to understand the structure
+* Verify column names, formats, and overall layout
+
+This step ensures the dataset is correctly loaded and ready for analysis.
+
+---
+
+### 4.2.2 Data Overview
+
+* Review data types and non-null values for each column
+* Generate summary statistics for numerical fields
+* Identify categorical and numerical variables
+
+This helps in understanding the overall shape and composition of the data.
+
+---
+
+### 4.2.3 Missing Value Analysis
+
+* Identify columns with missing values
+* Measure how much data is missing in each column
+* Assess whether missing data may affect analysis
+
+Based on this, decisions are made to handle missing values appropriately.
+
+---
+
+### 4.2.4 Duplicate Records Check
+
+* Detect duplicate rows in the dataset
+* Remove duplicates where necessary
+* Confirm that each record represents a unique entry
+
+This step improves data reliability.
+
+---
+
+### 4.2.5 Summary Statistics
+
+Basic statistical measures are used to understand key variables such as:
+
+* Feature usage counts
+* User engagement metrics
+* Issue or defect counts
+
+Measures include:
+
+* Mean, median, and standard deviation
+* Minimum and maximum values
+
+This provides a quick understanding of data distribution and variability.
+
+---
+
+### 4.2.6 Feature Usage and Engagement Analysis
+
+* Analyze how frequently different features are used
+* Compare engagement levels across features
+* Identify features with very high or very low usage
+
+Visualizations such as histograms and distribution plots help in spotting patterns and imbalances.
+
+---
+
+### 4.2.7 Time-Series Analysis
+
+* Track feature usage over time
+* Observe trends such as growth, stability, or decline
+* Identify any sudden spikes or drops
+
+Line charts are used to clearly show how usage changes across time.
+
+---
+
+### 4.2.8 Correlation Analysis
+
+* Examine relationships between key variables
+* Focus on:
+
+  * Issue count vs feature usage
+  * Engagement vs feature stability
+
+Correlation matrices and scatter plots are used to understand whether variables move together or in opposite directions.
+
+---
+
+### 4.2.9 Issue Count vs Adoption Decline
+
+* Compare defect counts with feature usage trends
+* Identify whether features with more issues show reduced usage
+* Highlight features that may be negatively impacted by defects
+
+This helps in understanding the impact of quality on adoption.
+
+---
+
+### 4.2.10 Defect Risk Distribution
+
+* Study how defects are distributed across features
+* Identify features with unusually high issue counts
+* Group features into different risk levels
+
+Histograms and box plots are used to detect outliers and understand distribution.
+
+---
+
+### 4.2.11 Feature Mapping Validation
+
+* Verify that feature IDs match correctly across datasets
+* Check consistency in mappings
+* Ensure that transformation logic is applied correctly
+
+This step ensures that the analysis is based on accurate and consistent data.
+
+---
+
+### 4.2.12 Key Insights
+
+From the EDA process, key observations include:
+
+* Features showing declining usage trends
+* Features with high defects and low engagement
+* Stable features with consistent usage
+* Any data quality issues that may affect results
+
+---
+
+### 4.3 Output
+
+The EDA process results in:
+
+* A cleaned and validated dataset
+* Visual summaries for better understanding
+* Insights that guide further analysis and modeling
+
+---
+
+### 4.4 Tools
+
+* **Jupyter Notebook** for analysis
+* **Plotly Express** for visualization
+* **Pandas** for data handling
+* **NumPy** for numerical operations
+
+---
 
 ---
 
