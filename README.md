@@ -9,7 +9,7 @@
 * **GitHub Repository:** [View Github](https://github.com/Chandravadan30/UMBC-DATA606-Capstone)
 * **LinkedIn Profile:** [Linkedin](https://www.linkedin.com/in/chandravadan-s-960447214/)
 * **Presentation Slides:** [Slides](https://docs.google.com/presentation/d/1HhX2ESY866Q_5Yu7D9NPph2QsxaGM4TNkazZ3F9_PHQ/edit?usp=sharing)
-* **YouTube Demo Video:** (to be added)
+* **YouTube Demo Video:** [Youtube](https://youtu.be/kDK6hWTS1sg?si=rhKhMMYXPzXVIcY3)
 
 ---
 
