@@ -11,15 +11,13 @@ This folder contains all project documentation for the LUNARA capstone project.
 ```text
 docs/
 │
-├── report.md
-├── presentation/
-├── screenshots/
+├── Report.md
+├── Resume.md
 └── README.md
 ```
 
 ---
 
-#  Included Documentation
 
 ## Project Report
 Contains:
@@ -30,22 +28,6 @@ Contains:
 - Dashboard explanation
 - Results and conclusions
 
----
-
-## Presentation Materials
-Includes:
-- Final PowerPoint presentation
-- Speaker notes
-- Presentation screenshots
-
----
-
-## Dashboard Screenshots
-Contains screenshots from:
-- Portfolio Overview
-- Forecasting Dashboard
-- Feature Deep Dive
-- Decision Intelligence Reports
 
 ---
 
