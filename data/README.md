@@ -1,108 +1,103 @@
-#  LUNARA Documentation
+#  LUNARA Data Directory
 
 ## Feature Lifecycle Intelligence Dashboard
 
-This folder contains all project documentation for the LUNARA capstone project.
+This folder contains all raw and processed datasets used in the LUNARA project.
 
 ---
 
-#  Contents
+#  Directory Structure
 
 ```text
-docs/
+data/
 │
-├── report.md
-├── presentation/
-├── screenshots/
+├── Data.md
 └── README.md
 ```
 
 ---
 
-#  Included Documentation
+#  Raw Data
 
-## Project Report
-Contains:
-- Project background
-- Data description
-- EDA
-- Machine learning methodology
-- Dashboard explanation
-- Results and conclusions
+The raw datasets include:
+- Google Analytics sample engagement data
+- GitHub Issues operational data
+- NASA KC1 defect dataset
+
+These datasets were used to generate:
+- Engagement metrics
+- Operational burden metrics
+- Defect risk indicators
+
+---
+The Processed data set will be created when you have run the notebook file
+#  Processed Data
+
+Processed datasets include:
+- weekly_feature_data.csv
+- feature_value_scores.csv
+- forecast_predictions.csv
+- decision_reports.json
+
+These files are generated through the preprocessing and modeling pipeline.
 
 ---
 
-## Presentation Materials
-Includes:
-- Final PowerPoint presentation
-- Speaker notes
-- Presentation screenshots
+#  Processed Dataset Descriptions
+
+| File | Description |
+|---|---|
+| weekly_feature_data.csv | Weekly feature-level analytics |
+| feature_value_scores.csv | Composite lifecycle scores |
+| forecast_predictions.csv | ML forecasting outputs |
+| decision_reports.json | RAG-generated recommendations |
 
 ---
 
-## Dashboard Screenshots
-Contains screenshots from:
-- Portfolio Overview
-- Forecasting Dashboard
-- Feature Deep Dive
-- Decision Intelligence Reports
+#  Engineered Metrics
 
----
-
-#  Project Objective
-
-LUNARA was developed to help product and engineering teams:
-- Evaluate feature health
-- Forecast feature adoption
-- Detect operational burden
-- Generate lifecycle recommendations
-
-using analytics, machine learning, and RAG-powered intelligence.
-
----
-
-#  Key Concepts
-
-## Feature Lifecycle Intelligence
-A structured framework for classifying product features into:
-- Invest
-- Maintain
-- Refactor
-- Sunset
-
----
-
-## Machine Learning Forecasting
-Gradient Boosting models are used to forecast:
+The processed datasets include:
 - Weekly Active Users
-- Engagement trends
-- Adoption patterns
+- Engagement Intensity
+- Issue Burden
+- Defect Risk
+- Lifecycle Score
+- Revenue Metrics
+- Bounce Rate
 
 ---
 
-## RAG Decision Intelligence
-Retrieval-Augmented Generation combines:
-- Metric analysis
-- Evidence retrieval
-- Recommendation generation
+#  Data Pipeline
 
-to produce explainable lifecycle guidance.
+The pipeline includes:
+1. Data ingestion
+2. Data cleaning
+3. Weekly aggregation
+4. Feature engineering
+5. Lifecycle scoring
+6. ML forecasting
+7. Decision intelligence generation
 
 ---
 
-#  Tools & Libraries
+#  Notes
 
-- Python
-- Streamlit
-- Plotly
-- Scikit-learn
-- Pandas
-- NumPy
+- Processed datasets are generated automatically from the notebook pipeline.
+- Forecasting outputs are regenerated whenever the notebook is rerun.
+
+---
+
+#  Formats Used
+
+| Format | Purpose |
+|---|---|
+| CSV | Structured tabular datasets |
+| JSON | Decision intelligence reports |
 
 ---
 
 #  Author
 
 Venkata Sai Chandravadan Sobila  
-University of Maryland Baltimore County  
-Data Science Capstone — Spring 2026
+UMBC Data Science Capstone  
+Spring 2026
